@@ -1,0 +1,275 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:#FFF0F5;
+    font-family:verdana;
+    width: 100%px;
+}
+
+.encabezado {
+    display: flex;
+    background-color: #FDD7E4;
+    box-shadow: rgba(220, 166, 212, 0.25) 0px 13px 27px -5px, rgba(225, 38, 194, 0.3) 0px 8px 16px -8px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+/* .max-width {
+    width: 100%;
+    max-width: 1000;
+} */
+
+.lista {
+    display: flex;
+    justify-content: center;
+
+}
+
+.color-negro{
+    color: black;
+    padding-right: 40px; 
+}
+
+a.color-negro:hover {
+    color:  #f79fbe;
+}
+
+.color-blanco {
+    color: #FFFFFF;
+    border-radius: 25px;
+    background-color: #f79fbe;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+a.color-blanco:hover {
+    background-color: #FFB7C5;
+} 
+
+.presentacion {
+    display: flex;
+}
+
+.info-personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 150px;
+    
+}
+
+.hola {
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    padding-bottom: 10px
+}
+
+.titulo {
+    font-size: 55px;
+    color: #f79fbe;
+
+}
+
+.imagen-personal {
+    width: 400px;
+    height: 400px;
+}
+
+.descripcion {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #c999af;
+}
+
+.boton {
+    color: #FFFFFF;
+    border-radius: 25px;
+    background-color:#f79fbe;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    width: 200px;
+    
+}
+
+a.boton:hover { 
+    background-color: #FFB7C5;
+}
+
+.conocimientos {
+    background-color:#fbe2ea;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.subtitulo {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.parrafo1 {
+    padding-bottom: 50px; 
+    line-height: 1.5;
+    /* margin-left: 500px;
+    margin-right: 500px;
+    max-width: 400px;  */
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 660px;
+    
+}
+
+.carta {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: solid 1px #c999af;
+    background-color: #FFF0F5;
+    border-radius: 5px;
+    flex-direction: column; 
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.carta:hover {
+    border: solid 2px;
+    border-color: #f74fd0;
+
+}
+
+.icono {
+    width: 60px;
+    height: 60px;
+}
+
+
+.nombre {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.container-color {
+    display: flex;
+    background-color: #f79fbe;
+    height: 570px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-rosa {
+    color: #FDD7E4;
+}
+
+.bx {
+    
+    font-size: 120px;
+}
+
+.cita {
+    line-height: 1.5;
+    
+}
+
+.someone {
+    font-family: verdana;
+    font-size: 30px;
+
+}
+
+.proyectos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 140px;
+    padding-top: 140px;
+}
+
+.projects {
+    font-size: 40px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.texto {
+    line-height:1.8;
+    margin-bottom: 40px;
+}
+
+.tarjeta {
+    display: flex;
+    width: 250px;
+    height: 300px;
+    border: solid 1px #c999af;
+    background-color: #FFF0F5;
+    border-radius: 5px;
+    flex-direction: column; 
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    /* align-self: center;  */
+}
+
+.tarjeta:hover {
+    border: solid 2px;
+    border-color: #f74fd0; 
+}
+
+.mi-primer-portfolio {
+    width: 240px;
+    height: 110px; 
+    
+}
+
+.contactame {
+    font-size: 40px;
+}
+
+.bx {
+    font-size: 25px;
+}
+
+
+
+.formulario {
+    background-color:#fbe2ea;
+}
+
+.footer {
+    background-color: #f79fbe;
+}
