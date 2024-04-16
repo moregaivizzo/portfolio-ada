@@ -116,13 +116,19 @@ a.boton:hover {
     background-color:#fbe2ea;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;  
     text-align: center;
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 120px;
     padding-right: 50px;
     padding-left: 50px;
+}
+
+.texto-conocimientos {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .subtitulo {
@@ -133,18 +139,15 @@ a.boton:hover {
 .parrafo1 {
     padding-bottom: 50px; 
     line-height: 1.5;
-    /* margin-left: 500px;
-    margin-right: 500px;
-    max-width: 400px;  */
+
 }
 
 .container-cards {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    width: 80%;
+    flex-wrap: wrap; 
+    width: 100%;
     max-width: 660px;
-    
 }
 
 .carta {
@@ -168,8 +171,8 @@ a.boton:hover {
 }
 
 .icono {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 
 
@@ -186,26 +189,30 @@ a.boton:hover {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .color-rosa {
     color: #FDD7E4;
 }
 
-.bx {
+.bxs-quote-right {
     
     font-size: 120px;
 }
 
 .cita {
+    text-align: center;
     line-height: 1.5;
+    width: 100%;
+    max-width: 700px;
     
 }
 
 .someone {
     font-family: verdana;
     font-size: 30px;
-
+    align-content: center;
 }
 
 .proyectos {
@@ -217,6 +224,8 @@ a.boton:hover {
     padding-right: 50px;
     padding-bottom: 140px;
     padding-top: 140px;
+    background-color: #FFF0F5;
+    
 }
 
 .projects {
@@ -229,6 +238,14 @@ a.boton:hover {
 .texto {
     line-height:1.8;
     margin-bottom: 40px;
+}
+
+.container-boxs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 100%;
+    max-width: 900px;
 }
 
 .tarjeta {
@@ -256,11 +273,16 @@ a.boton:hover {
     
 }
 
+.letras {
+    color: #f74fd0;
+    font-weight: 900;
+}
+
 .contactame {
     font-size: 40px;
 }
 
-.bx {
+.icon {
     font-size: 25px;
 }
 
@@ -269,6 +291,7 @@ a.boton:hover {
 .formulario {
     background-color:#fbe2ea;
 }
+
 
 .footer {
     background-color: #f79fbe;
