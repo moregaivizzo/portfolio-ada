@@ -27,18 +27,15 @@
                         <a href="#proyectos" class="boton">LO QUE HAGO</a>
         </div>
 
-        <figure>
+        <figure class="img-computer">
             <img class= "imagen-personal" src="./imagenes/programadora.webp" alt="silueta de chica programando">
         </figure>
         
     </section>
 
     <section class="conocimientos" id="conocimientos">
-    
-    <div class="texto-conocimientos">
+        <div class="texto-conocimientos">
         <h2 class="subtitulo">Mis conocimientos</h2>
-    <!-- </div>
-    <div>   -->
         <p class= "parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolorum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quibusdam!Lorem ipsum dolore, ratione doloremque voluptate? Recusandae at delectus sit voluptate iste quae.</p>
     </div>
 
@@ -83,57 +80,53 @@
     <section class="container-color">
         <i class='color-rosa bx bxs-quote-right'></i>
         <blockquote>
-            <p class="color-rosa cita">Cualquier tonto puede escribir código que un ordenador pueda entender. Los buenos programadores escriben código que los humanos pueden entender.</p>
+            <p class="color-rosa cita"><em>Cualquier tonto puede escribir código que un ordenador pueda entender. Los buenos programadores escriben código que los humanos pueden entender.</em></p>
         </blockquote>
         <h3 class="color-rosa someone">Martin Fowler</h3>
     </section>
 
 
     <section class="proyectos" id="proyectos">
-        <h3 class="projects">Mis proyectos</h3>
+
+        <div class="box-projects">
+        <h2 class="projects">Mis proyectos</h2>
         <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab velit debitis iusto incidunt dolorem sit. Nesciunt officia, modi, quas nobis veniam perspiciatis at, natus facilis nulla suscipit aspernatur id sunt.</p>
-        
+        </div>
+    
     <div class="container-boxs">  
         <div class="tarjeta port1">
-            <a href="#"></a>
-            <img class="mi-primer-portfolio" src="./imagenes/port.jpg" alt="imagen de mi primer portfolio">
+            <a href="#"><img class="mi-primer-portfolio"  src="./imagenes/port.jpg" alt="imagen de mi primer portfolio"></a>
             <p class="letras">Portfolio</p>
             
         </div>
 
         <div class="tarjeta">
-            <a href="#"></a>
-            <img class="generador-memes" src="./imagenes/memes.png" alt="imagen de chica con el celular">
+        <a href="#"><img class="generador-memes" src="./imagenes/memes.png" alt="imagen de chica con el celular"></a>
             <p class="letras">Generador de memes</p>
         </div>
 
         <div class="tarjeta">
-            <a href="#"></a>
-            <img class="match" src="./imagenes/03-NenaGamer.png " alt="nena jugando en una máquina de videojuegos">
+            <a href="#"><img class="match" src="./imagenes/03-NenaGamer.png " alt="nena jugando en una máquina de videojuegos"></a>
             <p class="letras">Match 3</p>
         </div>
 
         <div class="tarjeta">
-            <a href="#"></a>
-            <img class="gastos" src="./imagenes/02-Registradora.png" alt="caja registradora rosa">
+            <a href="#"><img class="gastos" src="./imagenes/02-Registradora.png" alt="caja registradora rosa"></a>
             <p class="letras">Controlador de gastos</p>
         </div>
 
         <div  class="tarjeta">
-            <a href="#"></a>
-            <img class="calendario" src="./imagenes/04-Calendario.png" alt="calendario rosa">
+            <a href="#"><img class="calendario" src="./imagenes/04-Calendario.png" alt="calendario rosa"></a>
             <p class="letras">Administración de reuniones</p>
         </div>
 
         <div  class="tarjeta">
-            <a href="#"></a>
-            <img src="./imagenes/01-Compu.png" alt="computadora con páginas abiertas">
+            <a href="#"><img src="./imagenes/01-Compu.png" alt="computadora con páginas abiertas"></a>
             <p class="letras">Todo app</p>
         </div>
 
         <div  class="tarjeta">
-            <a href="#"></a>
-            <img src="./imagenes/05 pochoclo.png" alt="">
+            <a href="#"><img src="./imagenes/05 pochoclo.png" alt=""></a>
             <p class="letras">Buscador de peliculas</p>
         </div>
     </div>
@@ -144,11 +137,13 @@
         <h3 class="contactame">Contactame</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum facilis, doloribus consectetur dicta impedit officiis molestiae nostrum ab sint placeat vel quidem atque voluptatem nobis mollitia quibusdam? Non, magni accusantium!</p>
         <ul>
-            <li><i class='bx icon bxl-twitter' style='color:#731cd8' > </i></li>
-            <li><i class='bx icon bxl-github' style='color:#731cd8' ></i></li>
-            <li><i class='bx icon bxl-linkedin' style='color:#731cd8' ></i></li>
-            <li><i class='bx icon bxl-gmail' style='color:#731cd8' ></i></li>
-            <li></li>
+            <li> <a href="https://www.instagram.com/"> <i class='bx icon bxl-instagram color-hover' style='color:#b7079f'> </i> </a> </li>
+
+            <li> <a href="https://github.com/"> <i class='bx icon bxl-github color-hover' style='color: #b7079f'></i> </a></li>
+            
+            <li> <a href="https://ar.linkedin.com/"> <i class='bx icon bxl-linkedin color-hover' style='color:#b7079f'> </i> </a> </li>
+                
+            <li> <a href="https://www.google.com/intl/es-419/gmail/about/"><i class='bx icon bxl-gmail color-hover' style='color:#b7079f' ></i></a> </li>
         </ul>
 
     <div>
@@ -171,14 +166,32 @@
     </div>
 
     </section>
-    
-    <section class="footer">
 
-        <footer>
+    <footer class="footer">
+        <nav> 
+            <ul class="lista">
+                <li><a href="#hola" class="color-negro hover rosa">HOLA</a></li>
+                <li><a href="#conocimientos" class="color-negro hover rosa">CONOCIMIENTOS</a></li>
+                <li><a href="#proyectos" class="color-negro hover rosa">PROYECTOS</a></li>
+                <li><a href="#contacto" class="color-negro hover rosa">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <ul class="iconos-footer">
+            <li> <a href="https://www.instagram.com/"> <i class='bx icon bxl-instagram icon-footer' style='color:#b7079f'> </i> </a> </li>
+
+            <li> <a href="https://github.com/"> <i class='bx icon bxl-github icon-footer' style='color: #b7079f'></i> </a></li>
             
-        </footer>
+            <li> <a href="https://ar.linkedin.com/"> <i class='bx icon bxl-linkedin icon-footer' style='color:#b7079f'> </i> </a> </li>
+                
+            <li> <a href="https://www.google.com/intl/es-419/gmail/about/"><i class='bx icon bxl-gmail icon-footer' style='color:#b7079f' ></i></a> </li>
+        </ul>
 
-    </section>
+        <p>Hecho con 💖 por More</p>
+
+        
+    </footer>
+
 
     
 </body>
