@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="encabezado">
-        <nav class=" navegador">
+        <nav>
         <ul class="lista">
             <li><a href="#hola" class="color-negro">HOLA</a></li>
             <li><a href="#conocimientos" class="color-negro">CONOCIMIENTOS</a></li>
@@ -22,7 +22,7 @@
     <section class="presentacion" id="hola">
         <div class="info-personal"> 
             <p class="hola">¡Hola! Soy</p>
-                <h1 class="titulo">Morena</h1>
+                <h1 class="titulo-presentacion">Morena</h1>
                     <p class="descripcion">Futura programadora, deportista y amante de los animales</p>
                         <a href="#proyectos" class="boton">LO QUE HAGO</a>
         </div>
@@ -35,40 +35,40 @@
 
     <section class="conocimientos" id="conocimientos">
         <div class="texto-conocimientos">
-        <h2 class="subtitulo">Mis conocimientos</h2>
-        <p class= "parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolorum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quibusdam!Lorem ipsum dolore, ratione doloremque voluptate? Recusandae at delectus sit voluptate iste quae.</p>
+        <h2 class="subtitulo-conocimientos">Mis conocimientos</h2>
+        <p class= "parrafo-conocimientos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolorum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quibusdam!Lorem ipsum dolore, ratione doloremque voluptate? Recusandae at delectus sit voluptate iste quae.</p>
     </div>
 
 
     <div class="container-cards">
-        <div class="carta">
+        <div class="card">
             <img class="icono" src="./imagenes/html.png" alt="icono de HTML 5">
-            <p class="nombre">HTML 5</p>
+            <p class="nombre-card">HTML 5</p>
         </div>
 
-        <div class="carta">
+        <div class="card">
             <img class="icono" src="./imagenes/css.png" alt="icono de CSS 3">
-            <p class="nombre">CSS 3</p>
+            <p class="nombre-card">CSS 3</p>
         </div>
 
-        <div class="carta">
+        <div class="card">
             <img class="icono" src="./imagenes/sass.png" alt="icono de Sass">
-            <p class="nombre">Sass</p>
+            <p class="nombre-card">Sass</p>
         </div>
 
-        <div class="carta">
+        <div class="card">
             <img class="icono" src="./imagenes/javascript.png" alt="icono de JavaScript">
-            <p class="nombre">JavaScript</p>
+            <p class="nombre-card">JavaScript</p>
         </div>
 
-        <div class="carta">
+        <div class="card">
             <img class="icono" src="./imagenes/React.png" alt="icono de react">
-            <p class="nombre">React</p>
+            <p class="nombre-card">React</p>
         </div>
 
-        <div class="carta">
+        <div class="card">
             <img class="icono" src="./imagenes/Git.png" alt="icono de GIT">
-            <p class="nombre">GIT</p>
+            <p class="nombre-card">GIT</p>
         </div>
 
     </div>
@@ -77,12 +77,12 @@
     
 
 
-    <section class="container-color">
-        <i class='color-rosa bx bxs-quote-right'></i>
-        <blockquote>
-            <p class="color-rosa cita"><em>Cualquier tonto puede escribir código que un ordenador pueda entender. Los buenos programadores escriben código que los humanos pueden entender.</em></p>
-        </blockquote>
-        <h3 class="color-rosa someone">Martin Fowler</h3>
+    <section class="container-quote">
+        <i class='bx bxs-quote-right'></i>
+        <blockquote class="quote">"Cualquier tonto puede escribir código que un ordenador pueda entender. <br>
+            Los buenos programadores escriben código que los humanos pueden entender."</blockquote>
+        
+        <p class="someone">Martin Fowler</p>
     </section>
 
 
@@ -90,80 +90,110 @@
 
         <div class="box-projects">
         <h2 class="projects">Mis proyectos</h2>
-        <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab velit debitis iusto incidunt dolorem sit. Nesciunt officia, modi, quas nobis veniam perspiciatis at, natus facilis nulla suscipit aspernatur id sunt.</p>
+        <p class="texto-projects">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab velit debitis iusto incidunt dolorem sit. Nesciunt officia, modi, quas nobis veniam perspiciatis at, natus facilis nulla suscipit aspernatur id sunt.</p>
         </div>
     
     <div class="container-boxs">  
-        <div class="tarjeta port1">
+        <div class="tarjeta-projects port1">
             <a href="#"><img class="mi-primer-portfolio"  src="./imagenes/port.jpg" alt="imagen de mi primer portfolio"></a>
-            <p class="letras">Portfolio</p>
+            <p class="titulo-projects">Portfolio</p>
             
         </div>
 
-        <div class="tarjeta">
+        <div class="tarjeta-projects">
         <a href="#"><img class="generador-memes" src="./imagenes/memes.png" alt="imagen de chica con el celular"></a>
-            <p class="letras">Generador de memes</p>
+            <p class="titulo-projects">Generador de memes</p>
         </div>
 
-        <div class="tarjeta">
+        <div class="tarjeta-projects">
             <a href="#"><img class="match" src="./imagenes/03-NenaGamer.png " alt="nena jugando en una máquina de videojuegos"></a>
-            <p class="letras">Match 3</p>
+            <p class="titulo-projects">Match 3</p>
         </div>
 
-        <div class="tarjeta">
+        <div class="tarjeta-projects">
             <a href="#"><img class="gastos" src="./imagenes/02-Registradora.png" alt="caja registradora rosa"></a>
-            <p class="letras">Controlador de gastos</p>
+            <p class="titulo-projects">Controlador de gastos</p>
         </div>
 
-        <div  class="tarjeta">
+        <div  class="tarjeta-projects">
             <a href="#"><img class="calendario" src="./imagenes/04-Calendario.png" alt="calendario rosa"></a>
-            <p class="letras">Administración de reuniones</p>
+            <p class="titulo-projects">Administración de reuniones</p>
         </div>
 
-        <div  class="tarjeta">
+        <div  class="tarjeta-projects">
             <a href="#"><img src="./imagenes/01-Compu.png" alt="computadora con páginas abiertas"></a>
-            <p class="letras">Todo app</p>
+            <p class="titulo-projects">Todo app</p>
         </div>
 
-        <div  class="tarjeta">
+        <div  class="tarjeta-projects">
             <a href="#"><img src="./imagenes/05 pochoclo.png" alt=""></a>
-            <p class="letras">Buscador de peliculas</p>
+            <p class="titulo-projects">Buscador de peliculas</p>
         </div>
     </div>
     </section>
 
 
-    <section class="formulario" id="contacto">
-        <h3 class="contactame">Contactame</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum facilis, doloribus consectetur dicta impedit officiis molestiae nostrum ab sint placeat vel quidem atque voluptatem nobis mollitia quibusdam? Non, magni accusantium!</p>
+    <section class="formulario" id="contacto"> 
+    <div class="container-form"> 
+        <div class="contact">
+            <h3 class="title-form">Contactame</h3>
+            <p class="parrafo-contacto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum facilis, doloribus consectetur dicta impedit officiis molestiae nostrum ab sint placeat vel quidem atque voluptatem nobis mollitia quibusdam? Non, magni accusantium!</p>
         <ul>
-            <li> <a href="https://www.instagram.com/"> <i class='bx icon bxl-instagram color-hover' style='color:#b7079f'> </i> </a> </li>
-
-            <li> <a href="https://github.com/"> <i class='bx icon bxl-github color-hover' style='color: #b7079f'></i> </a></li>
+            <li> <a class="redes-sociales" href="https://www.instagram.com/"> <i class='bx icon bxl-instagram color-hover' style='color:#b7079f'> </i> @More_Gaivizzo </a> </li>
             
-            <li> <a href="https://ar.linkedin.com/"> <i class='bx icon bxl-linkedin color-hover' style='color:#b7079f'> </i> </a> </li>
+            <li> <a class="redes-sociales" href="https://github.com/"> <i class='bx icon bxl-github color-hover' style='color: #b7079f'></i> MoreGaivizzo </a></li>
+            
+            <li> <a class="redes-sociales" href="https://ar.linkedin.com/"> <i class='bx icon bxl-linkedin color-hover' style='color:#b7079f'> </i> More.gaivizzo </a> </li>
                 
-            <li> <a href="https://www.google.com/intl/es-419/gmail/about/"><i class='bx icon bxl-gmail color-hover' style='color:#b7079f' ></i></a> </li>
+            <li> <a class="redes-sociales" href="https://www.google.com/intl/es-419/gmail/about/"><i class='bx icon bxl-gmail color-hover' style='color:#b7079f' ></i> Moregaivizzo@gmail.com </a> </li>
         </ul>
 
-    <div>
-        <h3>Escribime</h3>
-        <form action="">
+        </div>
 
-            <label for="">Nombre*</label>
-            <input type="name"> 
-            <label for="">Apellido*</label>
-            <input type="apellido"> <br>
-            <label for="">Email*</label>
-            <input type="email"> <br>
-            <label for="">Mensaje*</label>
-            <input type="mensaje"> 
-            
-            <br>
+        <div class="contact"> 
+            <h3 class="title-form">Escribime</h3>
+        <form action="https://dominio.com/send/"
+        method="get"
+        id="nombre">
 
-            <button class="enviar-form">Enviar</button>
-        </form>
+        <div class="container-name-surname"> 
+            <label for="name">
+                Nombre
+            <input type="text" id="name" name="name" placeholder="p. ej.:Morena" required>
+            </label>
+
+            <label for="surname">
+                Apellido
+            <input type="text" id="name" name="name" placeholder="p. ej.:Gaivizzo" required>
+            </label>
+
+        </div>
+
+        <div class="container-email-message">
+            <label for="mail">
+                Email
+            <input type="email" id="mail" name="mail" placeholder="moregaivizzo@gmail.com" required>
+            </label>
+
+            <div class="textarea">
+            <label for="mensaje">
+                Mensaje
+            <textarea name="mensaje" id="mensaje" maxlength="200" cols="30" rows="10" placeholder="Escriba un mesaje aquí" requireds></textarea>
+            </label>
+            </div>
+
+            <label for="enviar">
+                <input type="submit" value="Enviar" class="button">
+            </label> 
+
+        </div>
+
     </div>
+        
+        </div>
+        
+            
+        </form>
 
     </section>
 

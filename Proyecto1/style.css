@@ -1,9 +1,11 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    scroll-behavior: smooth;
+    scrollbar-color: #ff69b4 #FDD7E4;
 }
 
 body {
@@ -11,7 +13,7 @@ body {
     flex-direction: column;
     background-color:#FFF0F5;
     font-family:verdana;
-    width: 100%px;
+    width: 100%;
 }
 
 .encabezado {
@@ -19,16 +21,16 @@ body {
     background-color: #FDD7E4;
     box-shadow: rgba(220, 166, 212, 0.25) 0px 13px 27px -5px, rgba(225, 38, 194, 0.3) 0px 8px 16px -8px;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-end;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right: 50px;
     position: fixed;
 }
 
 .lista {
     display: flex;
-    justify-content: center;
-
+    /* justify-content: center; */
 }
 
 .color-negro{
@@ -70,26 +72,15 @@ a.color-blanco:hover {
 }
 
 .hola {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bolder;
     display: flex;
     padding-bottom: 10px
 }
 
-.titulo {
-    font-size: 55px;
+.titulo-presentacion {
+    font-size: 4rem;
     color: #f79fbe;
-}
-
-.img-computer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.imagen-personal {
-    width: 50vh;
-    height: 50vh;
 }
 
 .descripcion {
@@ -108,6 +99,18 @@ a.color-blanco:hover {
     width: 200px;
     
 }
+
+.img-computer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-personal {
+    width: 50vh;
+    height: 50vh;
+}
+
 
 a.boton:hover { 
     background-color: #FFB7C5;
@@ -136,13 +139,13 @@ a.boton:hover {
     align-items: center;
 }
 
-.subtitulo {
-    font-size: 40px;
+.subtitulo-conocimientos {
+    font-size: 3rem;
     padding-bottom: 40px;
 }
 
-.parrafo1 {
-    padding-bottom: 50px; 
+.parrafo-conocimientos {
+    /* padding-bottom: 20px;  */
     line-height: 1.5;
     width: 500px;
 
@@ -156,7 +159,7 @@ a.boton:hover {
     max-width: 660px;
 }
 
-.carta {
+.card {
     display: flex;
     width: 200px;
     height: 200px;
@@ -170,7 +173,7 @@ a.boton:hover {
     align-self: center;
 }
 
-.carta:hover {
+.card:hover {
     border: solid 2px;
     border-color: #f74fd0;
 
@@ -182,43 +185,40 @@ a.boton:hover {
 }
 
 
-.nombre {
+.nombre-card {
     font-family: sans-serif;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
-.container-color {
+.container-quote {
     display: flex;
-    background: rgb(255,193,236);
+    background: rgb(255,193,236); 
     background: linear-gradient(90deg, rgba(255,193,236,1) 0%, rgba(231,24,237,1) 50%, rgba(255,193,236,1) 100%);
-    height: 570px;
+    height: 80vh;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    
-}
-
-.color-rosa {
     color: #FDD7E4;
 }
 
 .bxs-quote-right {
-    
-    font-size: 120px;
+    font-size: 8rem;
 }
 
-.cita {
-    text-align: center;
-    line-height: 1.5;
-    width: 100%;
-    max-width: 700px;
+.quote {
+    text-align: center; 
+    margin-left: 40px;
+    margin-right: 40px; 
+    font-size: 1.5rem;
+    font-family: cursive;
 }
 
 .someone {
     font-family: verdana;
-    font-size: 30px;
+    font-size: 2.5rem;
     align-content: center;
+    font-weight: 900;
 }
 
 .proyectos {
@@ -232,8 +232,7 @@ a.boton:hover {
     padding-right: 50px;
     padding-bottom: 140px;
     padding-top: 140px;
-    background-color: #FFF0F5;
-    
+    background-color: #FBE2EA;
 }
 
 .box-projects {
@@ -241,17 +240,16 @@ a.boton:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .projects {
-    font-size: 40px;
+    font-size: 3rem;
     display: flex;
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
-.texto {
+.texto-projects {
     line-height:1.8;
     margin-bottom: 40px;
     width: 500px;
@@ -265,7 +263,7 @@ a.boton:hover {
     max-width: 900px; 
 }
 
-.tarjeta {
+.tarjeta-projects {
     display: flex;
     width: 250px;
     height: 300px;
@@ -276,10 +274,9 @@ a.boton:hover {
     margin: 10px;
     align-items: center;
     justify-content: space-around;
-    /* align-self: center; */
 }
 
-.tarjeta:hover {
+.tarjeta-projects:hover {
     border: solid 2px;
     border-color: #f74fd0; 
 }
@@ -287,26 +284,107 @@ a.boton:hover {
 .mi-primer-portfolio {
     width: 240px;
     height: 110px; 
-    
 }
 
-.letras {
+.titulo-projects {
     color: #f74fd0;
     font-weight: 900;
 }
 
-.contactame {
-    font-size: 40px;
-}
-
-.icon {
-    font-size: 25px; }
-
 
 .formulario {
-    background-color:#fbe2ea;
+    height: 100vh;
+    background-color:#FFF0F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.container-form {
+background: rgb(249,179,204);
+background: linear-gradient(90deg, rgba(249,179,204,1) 20%, rgba(251,226,234,1) 81%);
+    height: 70vh;
+    width: 120vh;
+    display: flex;
+    text-align: left;
+    border-radius: 15px;
+    padding: 80px 60px;
+    box-shadow: rgba(255, 105, 235, 0.35) 0px 5px 15px;
+}
+
+.contact {
+    width: 50%;
+}
+
+.title-form {
+    font-size: 3rem;
+}
+
+.parrafo-contacto {
+margin-top: 40px;
+margin-bottom: 40px;
+width: 400px;
+}
+
+
+.icon {
+    font-size: 25px;
+    margin: 15px;
+} 
+
+.redes-sociales {
+    color: black;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: block;
+}
+
+input {
+    border-radius: 20px;
+    border: 1px solid #fafafa;
+    background-color: #f9f5f7;
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 4vh;
+}
+
+textarea::placeholder, input::placeholder {
+    color: #ac0e97;
+}
+
+
+
+.container-name-surname {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.textarea {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.button {
+    border: 1px solid  #f97ab9;
+    background-color: #f97ab9;
+    color: #f9f5f7;
+    font-size: 1.2rem;
+    width: 25%;
+    height: 4vh;
+    cursor: pointer
+}
+
+.button:hover {
+    background-color: #f38fc1 ;
+    border: 1px solid hotpink;
+}
 
 .footer {
     display: flex;
