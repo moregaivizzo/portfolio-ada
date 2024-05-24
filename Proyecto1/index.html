@@ -7,23 +7,30 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-    <header class="encabezado">
-        <nav>
-        <ul class="lista">
+    <header class="container-navbar">
+        <nav class="navbar" id="menu">
+            <div class="logos-menu">
+                <a href="#menu" class="open"></a>
+                <a href="#" class="close"></a>
+            </div>
+            
+        <ul class="lista-menu">
             <li><a href="#hola" class="color-negro">HOLA</a></li>
             <li><a href="#conocimientos" class="color-negro">CONOCIMIENTOS</a></li>
             <li><a href="#proyectos" class="color-negro">PROYECTOS</a></li>
-            <li><a href="#contacto" class="color-blanco">CONTACTO</a></li>
+            <li><a id="button" class="boton-nav color-blanco" href="#contacto">CONTACTO</a></li>
         </ul>
+        
         </nav>
     </header>
 
-    <section class="presentacion" id="hola">
+    <section class="container-presentacion" id="hola">
         <div class="info-personal"> 
-            <p class="hola">¡Hola! Soy</p>
+            <p class="info-personal-hola">¡Hola! Soy</p>
                 <h1 class="titulo-presentacion">Morena</h1>
-                    <p class="descripcion">Futura programadora, deportista y amante de los animales</p>
+                    <p class="descripcion-presentacion ">Futura programadora, deportista y amante de los animales</p>
                         <a href="#proyectos" class="boton">LO QUE HAGO</a>
         </div>
 
@@ -139,20 +146,20 @@
             <h3 class="title-form">Contactame</h3>
             <p class="parrafo-contacto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum facilis, doloribus consectetur dicta impedit officiis molestiae nostrum ab sint placeat vel quidem atque voluptatem nobis mollitia quibusdam? Non, magni accusantium!</p>
         <ul>
-            <li> <a class="redes-sociales" href="https://www.instagram.com/"> <i class='bx icon bxl-instagram color-hover' style='color:#b7079f'> </i> @More_Gaivizzo </a> </li>
+            <li> <a class="redes-sociales" href="https://www.instagram.com/" target="_blank"> <i class='bx icon bxl-instagram color-hover' style='color:#b7079f'> </i> @More_Gaivizzo </a> </li>
             
-            <li> <a class="redes-sociales" href="https://github.com/"> <i class='bx icon bxl-github color-hover' style='color: #b7079f'></i> MoreGaivizzo </a></li>
+            <li> <a class="redes-sociales" href="https://github.com/" target="_blank"> <i class='bx icon bxl-github color-hover' style='color: #b7079f'></i> MoreGaivizzo </a></li>
             
-            <li> <a class="redes-sociales" href="https://ar.linkedin.com/"> <i class='bx icon bxl-linkedin color-hover' style='color:#b7079f'> </i> More.gaivizzo </a> </li>
+            <li> <a class="redes-sociales" href="https://ar.linkedin.com/" target="_blank"> <i class='bx icon bxl-linkedin color-hover' style='color:#b7079f'> </i> More.gaivizzo </a> </li>
                 
-            <li> <a class="redes-sociales" href="https://www.google.com/intl/es-419/gmail/about/"><i class='bx icon bxl-gmail color-hover' style='color:#b7079f' ></i> Moregaivizzo@gmail.com </a> </li>
+            <li> <a class="redes-sociales" href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><i class='bx icon bxl-gmail color-hover' style='color:#b7079f' ></i> Moregaivizzo@gmail.com </a> </li>
         </ul>
 
         </div>
 
         <div class="contact"> 
             <h3 class="title-form">Escribime</h3>
-        <form action="https://dominio.com/send/"
+        <form action="#"
         method="get"
         id="nombre">
 
@@ -178,7 +185,7 @@
             <div class="textarea">
             <label for="mensaje">
                 Mensaje
-            <textarea name="mensaje" id="mensaje" maxlength="200" cols="30" rows="10" placeholder="Escriba un mesaje aquí" requireds></textarea>
+            <textarea name="mensaje" id="mensaje" maxlength="200" cols="30" rows="10" placeholder="Escriba un mesaje aquí" required></textarea>
             </label>
             </div>
 
@@ -199,7 +206,7 @@
 
     <footer class="footer">
         <nav> 
-            <ul class="lista">
+            <ul class="menu-footer">
                 <li><a href="#hola" class="color-negro hover rosa">HOLA</a></li>
                 <li><a href="#conocimientos" class="color-negro hover rosa">CONOCIMIENTOS</a></li>
                 <li><a href="#proyectos" class="color-negro hover rosa">PROYECTOS</a></li>
@@ -208,13 +215,13 @@
         </nav>
 
         <ul class="iconos-footer">
-            <li> <a href="https://www.instagram.com/"> <i class='bx icon bxl-instagram icon-footer' style='color:#b7079f'> </i> </a> </li>
+            <li> <a href="https://www.instagram.com/" target="_blank"> <i class='bx icon bxl-instagram icon-footer' style='color:#b7079f'> </i> </a> </li>
 
-            <li> <a href="https://github.com/"> <i class='bx icon bxl-github icon-footer' style='color: #b7079f'></i> </a></li>
+            <li> <a href="https://github.com/" target="_blank"> <i class='bx icon bxl-github icon-footer' style='color: #b7079f'></i> </a></li>
             
-            <li> <a href="https://ar.linkedin.com/"> <i class='bx icon bxl-linkedin icon-footer' style='color:#b7079f'> </i> </a> </li>
+            <li> <a href="https://ar.linkedin.com/" target="_blank"> <i class='bx icon bxl-linkedin icon-footer' style='color:#b7079f'> </i> </a> </li>
                 
-            <li> <a href="https://www.google.com/intl/es-419/gmail/about/"><i class='bx icon bxl-gmail icon-footer' style='color:#b7079f' ></i></a> </li>
+            <li> <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"><i class='bx icon bxl-gmail icon-footer' style='color:#b7079f' ></i></a> </li>
         </ul>
 
         <p>Hecho con 💖 por More</p>
