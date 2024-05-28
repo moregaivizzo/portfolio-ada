@@ -1,6 +1,6 @@
 # Portfolio - Morena Gaivizzo
 
-## URL: [more](https://moregaivizzo.github.io/portfolio-ada/)
+## URL: [https://moregaivizzo.github.io/portfolio-ada/](https://moregaivizzo.github.io/portfolio-ada/)
 
 
 ## Descripción:
