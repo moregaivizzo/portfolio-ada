@@ -1,7 +1,7 @@
 # Portfolio - Morena Gaivizzo
 
-## URL: [https://moregaivizzo.github.io/portfolio-ada/](url)
-
+## URL: 
+[https://moregaivizzo.github.io/portfolio-ada/](url)
 
 ## Descripción:
 Este es mi primer proyecto individual durante mi carrera como Frontend Developer en ADA, en el cual apliqué todos los conocimientos adquiridos durante el primer módulo de trabajo. Entre ellos se encuentran HTML5 para la estructura del portfolio, CSS3 para el diseño del mismo, Flex para emplear el diseño responsive, entre otras cosas más. 
